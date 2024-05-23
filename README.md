@@ -22,10 +22,10 @@ Here is the final working script:
 
 import numpy as np
 
-# Assuming `model_bagg` is your trained model and it's already loaded
-# Uncomment and modify the following line if you need to load your model
-# import joblib
-# model_bagg = joblib.load('path_to_your_model_file.pkl')
+ Assuming `model_bagg` is your trained model and it's already loaded
+ Uncomment and modify the following line if you need to load your model
+ import joblib
+ model_bagg = joblib.load('path_to_your_model_file.pkl')
 
 # Input data
 datainput = (0, 1, 1, 120, 2, 0, 0, 0, 295, 0.0, 1, 42, 162)
