@@ -1,5 +1,5 @@
 #Report
-#Objective: The goal was to predict whether a person has heart disease based on input data using a pre-trained machine learning model (model_bagg). italicised text
+#Objective: The goal was to predict whether a person has heart disease based on input data using a pre-trained machine learning model (model_bagg). 
 
 #Steps Taken:
 
@@ -8,7 +8,7 @@ Model Loading: Ensured the pre-trained model (model_bagg) was loaded. Although t
 Data Preparation: Prepared the input data in the form of a tuple and converted it to a NumPy array. The array was reshaped to match the expected input shape for the model.
 Prediction: Used the model to predict whether the input data indicated the presence of heart disease.
 Interpreting Results: Printed the prediction and interpreted the result, outputting whether the person has heart disease or not based on the model's prediction.
-#Challenges Faced:
+##Challenges Faced:
 
 Model Prediction Consistency: Initially, there was confusion regarding the interpretation of the model's predictions. The prediction logic was misinterpreted, leading to the incorrect display of results.
 Model Bias: There was an issue where the model always predicted the presence of heart disease (1), regardless of the input data. This raised concerns about potential model overfitting, class imbalance during training, or input data preprocessing issues.
